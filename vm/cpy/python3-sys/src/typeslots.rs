@@ -1,0 +1,86 @@
+use swim_c_sys::int;
+
+pub const Py_mp_ass_subscript: int = 3;
+pub const Py_mp_length: int = 4;
+pub const Py_mp_subscript: int = 5;
+pub const Py_nb_absolute: int = 6;
+pub const Py_nb_add: int = 7;
+pub const Py_nb_and: int = 8;
+pub const Py_nb_bool: int = 9;
+pub const Py_nb_divmod: int = 10;
+pub const Py_nb_float: int = 11;
+pub const Py_nb_floor_divide: int = 12;
+pub const Py_nb_index: int = 13;
+pub const Py_nb_inplace_add: int = 14;
+pub const Py_nb_inplace_and: int = 15;
+pub const Py_nb_inplace_floor_divide: int = 16;
+pub const Py_nb_inplace_lshift: int = 17;
+pub const Py_nb_inplace_multiply: int = 18;
+pub const Py_nb_inplace_or: int = 19;
+pub const Py_nb_inplace_power: int = 20;
+pub const Py_nb_inplace_remainder: int = 21;
+pub const Py_nb_inplace_rshift: int = 22;
+pub const Py_nb_inplace_subtract: int = 23;
+pub const Py_nb_inplace_true_divide: int = 24;
+pub const Py_nb_inplace_xor: int = 25;
+pub const Py_nb_int: int = 26;
+pub const Py_nb_invert: int = 27;
+pub const Py_nb_lshift: int = 28;
+pub const Py_nb_multiply: int = 29;
+pub const Py_nb_negative: int = 30;
+pub const Py_nb_or: int = 31;
+pub const Py_nb_positive: int = 32;
+pub const Py_nb_power: int = 33;
+pub const Py_nb_remainder: int = 34;
+pub const Py_nb_rshift: int = 35;
+pub const Py_nb_subtract: int = 36;
+pub const Py_nb_true_divide: int = 37;
+pub const Py_nb_xor: int = 38;
+pub const Py_sq_ass_item: int = 39;
+pub const Py_sq_concat: int = 40;
+pub const Py_sq_contains: int = 41;
+pub const Py_sq_inplace_concat: int = 42;
+pub const Py_sq_inplace_repeat: int = 43;
+pub const Py_sq_item: int = 44;
+pub const Py_sq_length: int = 45;
+pub const Py_sq_repeat: int = 46;
+pub const Py_tp_alloc: int = 47;
+pub const Py_tp_base: int = 48;
+pub const Py_tp_bases: int = 49;
+pub const Py_tp_call: int = 50;
+pub const Py_tp_clear: int = 51;
+pub const Py_tp_dealloc: int = 52;
+pub const Py_tp_del: int = 53;
+pub const Py_tp_descr_get: int = 54;
+pub const Py_tp_descr_set: int = 55;
+pub const Py_tp_doc: int = 56;
+pub const Py_tp_getattr: int = 57;
+pub const Py_tp_getattro: int = 58;
+pub const Py_tp_hash: int = 59;
+pub const Py_tp_init: int = 60;
+pub const Py_tp_is_gc: int = 61;
+pub const Py_tp_iter: int = 62;
+pub const Py_tp_iternext: int = 63;
+pub const Py_tp_methods: int = 64;
+pub const Py_tp_new: int = 65;
+pub const Py_tp_repr: int = 66;
+pub const Py_tp_richcompare: int = 67;
+pub const Py_tp_setattr: int = 68;
+pub const Py_tp_setattro: int = 69;
+pub const Py_tp_str: int = 70;
+pub const Py_tp_traverse: int = 71;
+pub const Py_tp_members: int = 72;
+pub const Py_tp_getset: int = 73;
+pub const Py_tp_free: int = 74;
+#[cfg(Py_3_5)]
+pub const Py_nb_matrix_multiply: int = 75;
+#[cfg(Py_3_5)]
+pub const Py_nb_inplace_matrix_multiply: int = 76;
+#[cfg(Py_3_5)]
+pub const Py_am_await: int = 77;
+#[cfg(Py_3_5)]
+pub const Py_am_aiter: int = 78;
+#[cfg(Py_3_5)]
+pub const Py_am_anext: int = 79;
+#[cfg(any(not(Py_LIMITED_API), Py_3_5))]
+pub const Py_tp_finalize: int = 80;

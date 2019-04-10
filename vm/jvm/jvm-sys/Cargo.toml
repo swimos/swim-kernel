@@ -1,0 +1,15 @@
+[package]
+name = "swim-jvm-sys"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"
+
+links = "jvm"
+build = "build.rs"
+
+[features]
+default = []
+jvm = []
+
+[dependencies]
+swim-c-sys = { path = "../../../sys/c-sys" }

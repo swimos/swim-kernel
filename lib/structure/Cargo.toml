@@ -1,0 +1,12 @@
+[package]
+name = "swim-structure"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"
+
+[dependencies]
+swim-core = { path = "../core" }
+swim-mem = { path = "../mem" }
+
+[dev-dependencies]
+swim-c-rt = { path = "../../rt/c-rt" }

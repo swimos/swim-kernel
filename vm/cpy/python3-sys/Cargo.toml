@@ -1,0 +1,23 @@
+[package]
+name = "swim-python3-sys"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"
+
+links = "python3"
+build = "build.rs"
+
+[dependencies]
+swim-c-sys = { path = "../../../sys/c-sys" }
+
+[build-dependencies]
+regex = "0.2"
+
+[features]
+default = ["python-3"]
+python-module = [] # Don't link python interpreter
+python-3 = [] # Version 3.x
+python-3-4 = [] # Version 3.4
+python-3-5 = [] # Version 3.5
+python-3-6 = [] # Version 3.6
+pep-384 = [] # Stable ABI

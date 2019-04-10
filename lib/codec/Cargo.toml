@@ -1,0 +1,5 @@
+[package]
+name = "swim-codec"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"

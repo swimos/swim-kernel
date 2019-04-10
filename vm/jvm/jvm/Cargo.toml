@@ -1,0 +1,18 @@
+[package]
+name = "swim-jvm"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"
+
+[features]
+default = []
+jvm = ["swim-jvm-sys/jvm"]
+
+[dependencies]
+swim-codec = { path = "../../../lib/codec" }
+swim-mem = { path = "../../../lib/mem" }
+swim-c = { path = "../../../sys/c" }
+swim-jvm-sys = { path = "../jvm-sys" }
+
+[dev-dependencies]
+swim-c-rt = { path = "../../../rt/c-rt" }

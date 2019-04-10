@@ -1,0 +1,10 @@
+[package]
+name = "swim-python3"
+version = "0.1.0"
+authors = ["Chris Sachs <chris@swim.ai>"]
+edition = "2018"
+
+[dependencies]
+swim-mem = { path = "../../../lib/mem" }
+swim-c = { path = "../../../sys/c" }
+swim-python3-sys = { path = "../python3-sys" }
